@@ -52,7 +52,7 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::setUpSystemTrayIcon() {
-  QIcon icon = QIcon(":/assets/system-icon.png");
+  QIcon icon = QIcon(":/assets/photo-camera.png");
   systemTrayIcon->setIcon(icon);
   setWindowIcon(icon);
 
