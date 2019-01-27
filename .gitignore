@@ -1,0 +1,10 @@
+/debug/
+/profile/
+/release/
+
+/*.pro.user
+/.qmake.stash
+/Makefile
+/Makefile.*
+
+/tests/*.*
