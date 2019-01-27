@@ -72,12 +72,16 @@ MainWindow::~MainWindow() {
 
 void MainWindow::onShootButtonClicked() {
   shootScreen();
+  ui->saveButton->setEnabled(true);
 }
 
 void MainWindow::onSaveButtonClicked() {
-    QFileDialog dialog(this, tr("Save Screenshot"), QDir::currentPath());
+    QFileDialog dialog(this, tr("Save Screenshot"), QDir::currentPath() + "\\tests\\");
+
     dialog.setFileMode(QFileDialog::AnyFile);
+    dialog.setAcceptMode(QFileDialog::AcceptSave);
     dialog.setDefaultSuffix("jpg");
+    dialog.setNameFilter(tr("Images (*.png *.jpg)"));
 
     if (dialog.exec() != QDialog::Accepted) {
       return;
