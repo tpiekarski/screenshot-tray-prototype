@@ -33,6 +33,9 @@ private:
   QGraphicsScene *scene;
   QPixmap screenshot;
 
+  void setUpSystemTrayIcon();
+  void connectButtonSignals();
+  QMenu *buildSystemTrayMenu();
   void shootScreen();
 
 };

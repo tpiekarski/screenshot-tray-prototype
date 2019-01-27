@@ -61,6 +61,7 @@ public:
 
         saveButton = new QPushButton(layoutWidget);
         saveButton->setObjectName(QStringLiteral("saveButton"));
+        saveButton->setEnabled(false);
 
         buttonLayout->addWidget(saveButton);
 

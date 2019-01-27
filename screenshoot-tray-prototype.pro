@@ -17,3 +17,8 @@ FORMS += \
 
 RESOURCES += \
     screenshoot-tray-prototype.qrc
+
+DISTFILES += \
+    .gitignore \
+    README.md \
+    screenshot-tray-prototype.mf
