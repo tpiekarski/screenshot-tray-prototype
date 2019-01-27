@@ -1,5 +1,5 @@
 ﻿/*
- * Project:   screenshot-tray-prototype - A system-trayed screenshoot prototype
+ * Project:   screenshot-tray-prototype - A system-trayed screenshoot(ing) prototype
  * Github:    https://github.com/tpiekarski/screenshot-tray-prototype
  * Copyright: (c) 2019 Thomas Piekarski <t.piekarski@deloquencia.de>
  * License:   Mozilla Public License, v. 2.0

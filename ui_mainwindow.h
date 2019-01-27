@@ -84,7 +84,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "System-trayed Application", nullptr));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Screenshot-tray Prototype", nullptr));
         screenshotBox->setTitle(QApplication::translate("MainWindow", "Screenshot", nullptr));
         shootButton->setText(QApplication::translate("MainWindow", "&Shoot", nullptr));
         saveButton->setText(QApplication::translate("MainWindow", "S&ave", nullptr));

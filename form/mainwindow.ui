@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>System-trayed Application</string>
+   <string>Screenshot-tray Prototype</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QGroupBox" name="screenshotBox">

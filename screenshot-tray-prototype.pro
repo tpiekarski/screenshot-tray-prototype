@@ -1,5 +1,5 @@
 #
-# Project:   screenshot-tray-prototype - A system-trayed screenshoot prototype
+# Project:   screenshot-tray-prototype - A system-trayed screenshoot(ing) prototype
 # Github:    https://github.com/tpiekarski/screenshot-tray-prototype
 # Copyright: (c) 2019 Thomas Piekarski <t.piekarski@deloquencia.de>
 # License:   Mozilla Public License, v. 2.0
@@ -12,7 +12,7 @@ QT       += core gui widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = screenshoot-tray-prototype
+TARGET = screenshot-tray-prototype
 TEMPLATE = app
 DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++14
@@ -30,7 +30,7 @@ FORMS += \
         form/mainwindow.ui
 
 RESOURCES += \
-    screenshoot-tray-prototype.qrc
+    screenshot-tray-prototype.qrc
 
 DISTFILES += \
     LICENSE \

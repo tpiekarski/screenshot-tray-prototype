@@ -18,5 +18,12 @@ moc_*
 # Qt UIC files
 ui_*
 
-# Temprary testing files
+#VS Code
+/*.code-workspace
+
+# Temporary testing files
 /tests/*.*
+
+# Miscellaneous files
+/images/*.raw.*
+/images/*.pspimage
