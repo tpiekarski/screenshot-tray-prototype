@@ -1,10 +1,22 @@
+# Build files
 /debug/
 /profile/
 /release/
 
-/*.pro.user
+# QMake files
 /.qmake.stash
 /Makefile
 /Makefile.*
 
+# Qt Creator files
+*.autosave
+*.pro.user
+
+# Qt MOC files
+moc_*
+
+# Qt UIC files
+ui_*
+
+# Temprary testing files
 /tests/*.*

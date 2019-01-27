@@ -27,3 +27,7 @@ mingw32-make
 - [ ] Fix display bug with QGraphicsScene containing multiple Qixmaps
 - [ ] Implement a quick way to convert QPixmap to WebP with libwebp
 - [ ] Implement a way to encode WebP Images to WebM using libvpx
+- [ ] Add a screenshot
+- [ ] Integrate Appveyor
+- [x] Add license information and headers
+- [x] Structure include, form and source files
