@@ -23,13 +23,3 @@ To compile and link the application with MinGW toolchain run:
 qmake screenshot-tray-prototype.pro
 mingw32-make
 ```
-
-### Todo
-- [ ] Integrate a QTimer for shooting screenshots at an predefined interval
-- [ ] Fix display bug with QGraphicsScene containing multiple Qixmaps
-- [ ] Implement a quick way to convert QPixmap to WebP with libwebp
-- [ ] Implement a way to encode WebP Images to WebM using libvpx
-- [ ] Integrate Appveyor
-- [x] Add license information and headers
-- [x] Add a screenshot
-- [x] Structure include, form and source files
